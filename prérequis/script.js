@@ -90,17 +90,22 @@
 // console.log(nom);
 
 // //Les tableaux
-var M = new Array();
-M[0] = "chien";
-M[1] = "chat";
-M[2] = "poule";
-M.length; 
-console.log("la longueur est "+M.length);
-console.log(M);
+// var M = new Array();
+// M[0] = "chien";
+// M[1] = "chat";
+// M[2] = "poule";
+// M.length; 
+// console.log("la longueur est "+M.length);
+// console.log(M);
 
-for (var i = 0; i < M.length; i++) {
-  console.log(M[i]);
-}
+// for (var i = 0; i < M.length; i++) {
+//   console.log(M[i]);
+// }
+
+// //Les fonctions
+// function tester() {
+//  alert("Bonjour je suis une Alert");
+// }
 
 
 
