@@ -35,6 +35,16 @@ const number = 42;
 number = 60;
 console.log(number);
 
+//structure de conrole
+var nom = "des chatons";
+if (nom == "des chiots") {
+  nom += " !";
+} else if (nom == "des chatons") {
+  nom += " !!";
+} else {
+  nom = " !" + nom;
+}
+nom == "des chatons !!"
 
 
 
