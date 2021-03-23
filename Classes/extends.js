@@ -62,4 +62,6 @@
       console.log(`${this.nom} rugit.`);
     }
   }
+  const chat1 =new Lion("najlae")
+  console.log(chat1.parler())
   //end of exemple 4
