@@ -107,6 +107,17 @@
 //  alert("Bonjour je suis une Alert");
 // }
 
+////Les fonctions internes
+// function tester() {
+//   var a = 1;
+//   function fonctionImbriquee() {
+//     var b = 4; 
+//     alert(a + b);
+//   }
+//   return fonctionImbriquee(); 
+// }
+
+
 
 
 
