@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>let et cte</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+</head>
+
+<body>
+    <script>
+        // Exemple let :
+        var x = 1;
+        let y = 1;
+
+        if (true) {
+            var x = 2;
+            let y = 2;
+        }
+
+        console.log(x);
+        // expected output: 2
+
+        console.log(y);
+// expected output: 1
+    </script>
+
+    <script>
+        // Exemple const
+        const number = 42;
+
+        try {
+            number = 99;
+        } catch (err) {
+            console.log(err);
+            // expected output: TypeError: invalid assignment to const `number'
+            // Note - error messages will vary depending on browser
+        }
+
+        console.log(number);
+// expected output: 42
+    </script>
+
+
+</body>
+
+</html>
