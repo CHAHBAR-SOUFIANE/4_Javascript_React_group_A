@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        
+
+let pierre = {name: 'Pierre'};
+let mathilde = {name: 'Mathilde'};
+
+function disBonjour(){
+  alert('Bonjour ' + this.name);
+}
+
+pierre.bonjour = disBonjour;
+mathilde.bonjour = disBonjour;
+
+/*Décommentez le code pour l'exécuter
+pierre.bonjour(); //Bonjour Pierre
+mathilde.bonjour(); //Bonjour Mathilde
+*/
+
+
+    </script>
+
+    <script>
+        
+
+let pierre = {
+    nom: 'Giraud',
+    prenom: 'Pierre',
+    hobbies: ['Trail', 'Triathlon', 'Cuisine'],
+  
+    disBonjour(){
+        let bonjour = () => alert('Bonjour ' + this.prenom);
+        bonjour();
+    }
+};
+
+/*Décommentez le code pour l'exécuter
+pierre.disBonjour(); //Bonjour Pierre
+*/
+
+
+    </script>
+</body>
+</html>
