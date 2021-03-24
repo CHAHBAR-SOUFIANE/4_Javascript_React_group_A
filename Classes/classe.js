@@ -6,7 +6,8 @@ class Ligne{
         this.longueur = longueur;
     }
     
-    taille(){document.getElementById('p1').innerHTML +=
+    taille(){
+        document.getElementById('p1').innerHTML +=
         'Longueur de  ' + this.nom + ' : ' + this.longueur + '<br>'};
 }
 
